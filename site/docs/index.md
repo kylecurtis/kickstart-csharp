@@ -30,13 +30,13 @@ Free and open-source documentation and hands-on projects to kickstart your full-
 
 <br>
 
-## [🎓 Learn](./topics/roadmap.md)
+## [🎓 Learn](./learn/available.md)
 
 <br>
 
 ???+ info "Learning Topics"
 
-    :material-arrow-right-bold: [Kickstart C#](./learn/roadmap.md#kickstart-c) (In Progress)
+    :material-arrow-right-bold: [Kickstart C#](./learn/available.md#kickstart-c) (In Progress)
 
     :material-arrow-right-bold: [ASP.NET Core](./pages/coming-soon.md) (Coming Soon)
 
@@ -51,7 +51,7 @@ Free and open-source documentation and hands-on projects to kickstart your full-
 
 <br>
 
-## [🛠️ Build](./projects/start-here.md)
+## [🛠️ Build](./build/available.md)
 
 <br>
 

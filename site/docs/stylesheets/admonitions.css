@@ -1,0 +1,97 @@
+/* LIGHT THEME
+========================================================================== */
+[data-md-color-scheme="default"] {
+
+    /* SUCCESS */
+    .md-typeset .admonition.success,
+    .md-typeset details.success {
+        border: none;
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 8px 1px;
+    }
+
+    /* SUCCESS TITLE */
+    .md-typeset .success>.admonition-title,
+    .md-typeset .success>summary {
+        background-color: var(--catppuccin-mocha-base);
+    }
+
+    /* INFO */
+    .md-typeset .admonition.info,
+    .md-typeset details.info {
+        border: none;
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 8px 1px;
+    }
+
+    /* INFO TITLE */
+    .md-typeset .info>.admonition-title,
+    .md-typeset .info>summary {
+        background-color: var(--catppuccin-mocha-base);
+    }
+
+    /* EXAMPLE */
+    .md-typeset .admonition.example,
+    .md-typeset details.example {
+        border-color: var(--catppuccin-latte-mauve);
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 8px 1px;
+    }
+
+    /* EXPANDED CONTENT */
+    .md-typeset .admonition,
+    .md-typeset details {
+        background-color: var(--catppuccin-mocha-crust);
+    }
+}
+
+/* DARK THEME
+========================================================================== */
+[data-md-color-scheme="slate"] {
+
+    .info p, .info ul {
+        font-size: 16px;
+    }
+
+    /* SUCCESS */
+    .md-typeset .admonition.success,
+    .md-typeset details.success {
+        border: none;
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 8px 1px;
+    }
+
+    /* SUCCESS TITLE */
+    .md-typeset .success>.admonition-title,
+    .md-typeset .success>summary {
+        background-color: var(--catppuccin-mocha-base);
+    }
+
+    /* INFO */
+    .md-typeset .admonition.info,
+    .md-typeset details.info {
+        border: none;
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 8px 1px;
+    }
+
+    /* INFO TITLE */
+    .md-typeset .info>.admonition-title,
+    .md-typeset .info>summary {
+        background-color: var(--catppuccin-mocha-base);
+    }
+
+    /* EXAMPLE */
+    .md-typeset .admonition.example,
+    .md-typeset details.example {
+        border: none;
+        box-shadow: var(--catppuccin-latte-mauve) 0 0 8px 1px;
+    }
+
+    /* INFO TITLE */
+    .md-typeset .example>.admonition-title,
+    .md-typeset .example>summary {
+        background-color: var(--catppuccin-mocha-base);
+    }
+
+    /* EXPANDED CONTENT */
+    .md-typeset .admonition,
+    .md-typeset details {
+        background-color: var(--catppuccin-mocha-crust);
+    }
+}

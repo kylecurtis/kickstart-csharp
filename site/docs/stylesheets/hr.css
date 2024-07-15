@@ -1,0 +1,30 @@
+.md-typeset hr {
+    position: relative;
+    border-bottom: 2px solid var(--catppuccin-mocha-surface1);
+    display: flow-root;
+    margin: 1.5em 0;
+}
+
+.md-typeset hr::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--catppuccin-mocha-crust);
+    border-radius: 60%;
+    background-image: url('../assets/images/hr-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+}
+
+hr {
+    border: 0;
+    box-sizing: initial;
+    height: .05rem;
+    overflow: visible;
+    padding: 0;
+}

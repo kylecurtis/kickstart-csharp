@@ -1,0 +1,151 @@
+# SITE CONFIG
+# ==============================================================
+
+# BASICS
+site_name: Kickstart C#
+site_url: https://www.kickstartcsharp.com
+
+# GITHUB REPO
+repo_url: https://github.com/kylecurtis/kickstart-csharp
+repo_name: kylecurtis/kickstart-csharp
+
+# COPYRIGHT
+copyright: Copyright &copy; 2024 Kyle Curtis
+
+# CSS STYLE SHEETS
+extra_css:
+  - stylesheets/catppuccin-themes.css
+  - stylesheets/catppuccin-code.css
+  - stylesheets/extra.css
+  - stylesheets/header-footer.css
+  - stylesheets/fonts.css # Fonts & Text
+  - stylesheets/hr.css # Horizontal Rule
+  - stylesheets/admonitions.css
+  - stylesheets/grid.css
+  - stylesheets/tags.css
+
+# THEME CONFIG
+# ==============================================================
+theme:
+  favicon: assets/images/logo.png 
+  logo: assets/images/logo.png
+
+  icon:
+    repo: fontawesome/brands/github-alt
+    admonition:
+      example: fontawesome/solid/laptop-code
+      success: material/checkbox-multiple-marked-circle
+
+# ==============================================================
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+
+# ==============================================================
+  font:
+    text: Geologica
+    code: Encode Sans Expanded
+# ==============================================================
+  name: material
+  palette:
+    # The only supported theme is dark.
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+
+# MARKDOWN EXTENSIONS
+# ==============================================================
+markdown_extensions:
+  - attr_list
+
+  # EMOJI AND ICON SUPPORT
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  ## CODE HIGHLIGHTING
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - md_in_html
+
+# PLUGINS
+# ==============================================================
+plugins:
+  - search
+  - offline
+
+# SIDEBAR NAVIGATION
+# ==============================================================
+nav:
+  - 🏠 Home:
+    - index.md
+    - pages/support.md
+
+  - 🎓 Learn:
+    # ==============================================================
+    - learn/available.md
+
+    - Kickstart C#:
+      - Introduction To C#:
+        - learn/csharp/hello-world.md
+
+      - C# Basics:
+        - pages/coming-soon.md
+
+      - Control Flow:
+        - pages/coming-soon.md
+
+      - Methods and Functions:
+        - pages/coming-soon.md
+
+      - Object-Oriented Programming in C#:
+        - pages/coming-soon.md
+
+      - Advanced C# Concepts:
+        - pages/coming-soon.md
+
+      - Memory Management and Pointers:
+        - pages/coming-soon.md
+
+      - Asynchronous Programming:
+        - pages/coming-soon.md
+
+      - File I/O and Serialization:
+        - pages/coming-soon.md
+
+      - Reflection and Metadata:
+        - pages/coming-soon.md
+
+      - Interoperability:
+        - pages/coming-soon.md
+
+      - Testing and Debugging:
+        - pages/coming-soon.md
+
+      - Best Practices and Design Patterns:
+        - pages/coming-soon.md
+
+    - ASP.NET Core:
+      - pages/coming-soon.md
+
+    - SQLite:
+      - pages/coming-soon.md
+
+    # ==============================================================
+
+  - 🛠️ Build:
+    - build/available.md
+
+  - 🚀 Support The Project:
+    - pages/support.md

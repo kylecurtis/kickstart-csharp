@@ -1,0 +1,6 @@
+[data-md-color-scheme="slate"] {
+    .md-typeset .md-tag {
+        background: var(--catppuccin-latte-mauve) !important;
+        color: var(--catppuccin-mocha-crust) !important;
+    }
+}

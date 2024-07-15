@@ -1,0 +1,61 @@
+/*
+Theme used: Mocha
+Colors are from Catppuccin: https://github.com/catppuccin/catppuccin
+Color variables are defined in ./catppuccin-themes.css.
+*/
+
+/* LIGHT THEME
+========================================================================== */
+[data-md-color-scheme="default"] {
+    --md-code-bg-color: var(--catppuccin-mocha-base);
+    --md-code-hl-number-color: var(--catppuccin-mocha-yellow);
+    --md-code-hl-special-color: var(--catppuccin-mocha-sapphire);
+    --md-code-hl-function-color: var(--catppuccin-mocha-blue);
+    --md-code-hl-constant-color: var(--catppuccin-mocha-maroon);
+    --md-code-hl-keyword-color: var(--catppuccin-mocha-mauve);
+    --md-code-hl-string-color: var(--catppuccin-mocha-green);
+    --md-code-hl-name-color: var(--catppuccin-mocha-flamingo);
+    --md-code-hl-operator-color: var(--catppuccin-mocha-red);
+    --md-code-hl-punctuation-color: var(--catppuccin-mocha-subtext1);
+    --md-code-hl-comment-color: var(--catppuccin-mocha-overlay1);
+    --md-code-hl-generic-color: var(--catppuccin-mocha-sky);
+    --md-code-hl-variable-color: var(--catppuccin-mocha-peach);
+
+    .filename {
+        color: var(--catppuccin-mocha-text) !important;
+        background-color: var(--catppuccin-mocha-base) !important;
+        border-bottom: 2px solid var(--catppuccin-mocha-surface1) !important;
+    }
+
+    .highlight {
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 5px 2px !important;
+    }
+}
+
+/* DARK THEME
+========================================================================== */
+[data-md-color-scheme="slate"] {
+    --md-code-bg-color: var(--catppuccin-mocha-base);
+    --md-code-hl-number-color: var(--catppuccin-mocha-yellow);
+    --md-code-hl-special-color: var(--catppuccin-mocha-sapphire);
+    --md-code-hl-function-color: var(--catppuccin-mocha-blue);
+    --md-code-hl-constant-color: var(--catppuccin-mocha-maroon);
+    --md-code-hl-keyword-color: var(--catppuccin-mocha-mauve);
+    --md-code-hl-string-color: var(--catppuccin-mocha-green);
+    --md-code-hl-name-color: var(--catppuccin-mocha-flamingo);
+    --md-code-hl-operator-color: var(--catppuccin-mocha-red);
+    --md-code-hl-punctuation-color: var(--catppuccin-mocha-subtext1);
+    --md-code-hl-comment-color: var(--catppuccin-mocha-overlay1);
+    --md-code-hl-generic-color: var(--catppuccin-mocha-sky);
+    --md-code-hl-variable-color: var(--catppuccin-mocha-peach);
+
+    .filename {
+        color: var(--catppuccin-mocha-subtext0) !important;
+        background-color: var(--catppuccin-mocha-base) !important;
+        border-bottom: 2px solid var(--catppuccin-mocha-surface1) !important;
+    }
+
+    .highlight {
+        box-shadow: var(--catppuccin-mocha-surface1) 0 0 5px 2px !important;
+    }
+}

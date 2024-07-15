@@ -1,0 +1,113 @@
+/* HEADINGS
+========================================================================== */
+h1,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--catppuccin-latte-mauve) !important;
+}
+
+h1 {
+    font-weight: bold !important;
+    color: var(--catppuccin-latte-mauve) !important;
+}
+
+h2 {
+    color: var(--catppuccin-mocha-mauve) !important;
+    text-align: center;
+}
+
+/* BODY
+========================================================================== */
+body main {
+    background-size: 32px 32px !important;
+    background-image:
+        linear-gradient(to right, #15151fab 1px, transparent 1px),
+        linear-gradient(to bottom, #15151fab 1px, transparent 1px) !important;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #11111b, #11111b, #11111b, #11111b, #11111b, #12121c, #12121c, #13131d, #14141f, #151621, #171723, #181825);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* NAV MENUS
+========================================================================== */
+.md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link { 
+    box-shadow: none;
+    background-color: var(--catppuccin-mocha-crust);
+}
+
+.md-nav--secondary .md-nav__title {
+    box-shadow: none;
+}
+
+/* ICONS (ADMONITIONS)
+========================================================================== */
+.cone {
+    color: var(--catppuccin-latte-yellow);
+}
+
+.check {
+    color: var(--catppuccin-latte-green)
+}
+
+/* LIGHT THEME
+========================================================================== */
+[data-md-color-scheme="default"] {
+    --md-default-bg-color: var(--catppuccin-mocha-crust);
+    --md-default-fg-color: var(--catppuccin-mocha-text);
+    --md-default-fg-color--light: var(--catppuccin-mocha-text);
+    --md-default-fg-color--lighter: var(--catppuccin-mocha-text);
+    --md-default-fg-color--lightest: var(--catppuccin-mocha-text);
+
+    .md-nav--primary .md-nav__title {
+        background-color: var(--catppuccin-mocha-crust);
+    }
+}
+
+/* DARK THEME
+========================================================================== */
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: var(--catppuccin-mocha-crust);
+    --md-default-fg-color: var(--catppuccin-mocha-text);
+    --md-default-fg-color--light: var(--catppuccin-mocha-text);
+    --md-default-fg-color--lighter: var(--catppuccin-mocha-text);
+    --md-default-fg-color--lightest: var(--catppuccin-mocha-text);
+    --md-footer-fg-color: var(--catppuccin-mocha-text);
+    --md-footer-fg-color--light: var(--catppuccin-mocha-text);
+    --md-footer-fg-color--lighter: var(--catppuccin-mocha-text);
+    --md-footer-fg-color--lightest: var(--catppuccin-mocha-text);
+
+    .md-nav--primary .md-nav__title {
+        background-color: var(--catppuccin-mocha-crust);
+    }
+}
+
+/* MEDIA QUERY
+========================================================================== */
+@media only screen and (min-width: 76.25em) {
+    .md-main__inner {
+        max-width: 1420px;
+    }
+
+    .md-sidebar--primary {
+        left: 0;
+    }
+
+    .md-sidebar--secondary {
+        right: 0;
+        margin-left: 0;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.bmc-btn-text {
+    color: var(--catppuccin-mocha-crust);
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Berkeley Mono";
+    src: "assets/fonts/BerkeleyMono-Regular";
+}
+
+code *, pre *, .success * {
+    font-family: "Berkeley Mono", "Courier New", "Monospace" !important;
+}
+
+html {
+    font-size: 22px !important;
+}
+
+.md-sidebar *, .md-nav * {
+    font-size: 14px !important;
+}
+
+table {
+    font-size: 16px !important;
+}
+
+/* ADMONITIONS */
+.info *, .success *, .example * {
+    font-size: 16px !important;
+}
+
+pre *, code * {
+    font-size: 14px !important;
+}
+
+p code {
+    background-color: var(--catppuccin-mocha-base) !important;
+    color: var(--catppuccin-latte-mauve) !important;
+    box-shadow: var(--catppuccin-mocha-surface1) 0 0 3px 1px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+

@@ -1,0 +1,42 @@
+/* LIGHT THEME
+========================================================================== */
+[data-md-color-scheme="default"] {
+
+    /* TOP HEADER */
+    .md-header,
+    .md-tabs,
+    .md-footer-meta {
+        background: var(--catppuccin-mocha-crust) !important;
+        color: var(--catppuccin-mocha-text) !important;
+    }
+
+    .md-footer-meta {
+        border-top: 2px solid var(--catppuccin-mocha-base);
+    }
+
+    .md-search-result__meta {
+        background-color: var(--catppuccin-mocha-crust);
+    }
+
+}
+
+/* DARK THEME
+========================================================================== */
+[data-md-color-scheme="slate"] {
+
+    /* TOP HEADER */
+    .md-header,
+    .md-tabs,
+    .md-footer-meta {
+        background: var(--catppuccin-mocha-crust) !important;
+        color: var(--catppuccin-mocha-text) !important;
+    }
+
+    .md-footer-meta {
+        border-top: 2px solid var(--catppuccin-mocha-base);
+    }
+
+    .md-search-result__meta {
+        background-color: var(--catppuccin-mocha-crust);
+    }
+}

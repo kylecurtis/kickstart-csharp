@@ -21,7 +21,6 @@ extra_css:
   - stylesheets/fonts.css # Fonts & Text
   - stylesheets/hr.css # Horizontal Rule
   - stylesheets/admonitions.css
-  - stylesheets/grid.css
   - stylesheets/tags.css
 
 # THEME CONFIG

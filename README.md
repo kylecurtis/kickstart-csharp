@@ -22,7 +22,7 @@ Free and open-source documentation and hands-on projects to kickstart your full-
 
 <br>
 
-🚀 https://www.kickstartcsharp.com
+🚀 kickstartcsharp.com
 
 <br>
 

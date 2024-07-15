@@ -22,10 +22,6 @@ Free and open-source documentation and hands-on projects to kickstart your full-
 
 <br>
 
-🚀 kickstartcsharp.com
-
-<br>
-
 <br>
 
 ## Local Setup

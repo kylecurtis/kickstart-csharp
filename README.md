@@ -1,6 +1,6 @@
 # Kickstart C#
 
-<img align="left" width="190" height="190" src="https://raw.githubusercontent.com/kylecurtis/kickstart-csharp/main/site/docs/assets/images/logo.png">
+<img align="left" width="190" height="190" src="https://raw.githubusercontent.com/kylecurtis/kickstart-csharp/main/main/docs/assets/images/logo.png">
 
 <br>
 
@@ -40,10 +40,10 @@ git clone https://github.com/kylecurtis/kickstart-csharp.git
 
 <br>
 
-#### Change To Repo Directory
+#### Change To Site Directory (main)
 
 ```bash
-cd /path/to/kickstart-csharp
+cd /path/to/kickstart-csharp/main
 ```
 
 <br>

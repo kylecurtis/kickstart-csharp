@@ -1,6 +1,13 @@
 # Hello, World!
 
-The "Hello, World!" program is a classic introduction to a new programming language. It is the simplest program you can write and serves as a good starting point for understanding the basic structure and syntax of C#.
+???+ info "Overview"
+
+    ![Easy Badge](../../assets/images/badges/Easy.svg)
+    ![CS Basics Badge](../../assets/images/badges/CS-Basics.svg)
+
+    The "Hello, World!" program is a classic introduction to a new programming language. 
+
+    It is the simplest program you can write and serves as a good starting point for understanding the basic structure and syntax of C#.
 
 <br>
 
@@ -10,7 +17,7 @@ The "Hello, World!" program is a classic introduction to a new programming langu
 
 <br>
 
-## Writing the Program
+### Writing the Program
 
 <br>
 
@@ -50,7 +57,7 @@ namespace HelloWorld
 
 <br>
 
-## Code Breakdown
+### Code Breakdown
 
 <br>
 

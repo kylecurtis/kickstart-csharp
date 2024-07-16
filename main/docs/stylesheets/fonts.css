@@ -28,7 +28,7 @@ pre *, code * {
     font-size: 14px !important;
 }
 
-p code {
+p code, ul code, li code {
     background-color: var(--catppuccin-mocha-base) !important;
     color: var(--catppuccin-latte-mauve) !important;
     box-shadow: var(--catppuccin-mocha-surface1) 0 0 3px 1px !important;

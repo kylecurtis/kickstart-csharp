@@ -71,7 +71,7 @@ The scope of a variable is the region of the program where the variable is acces
 
 <br>
 
-### Constants And Read-Only Fields
+### Constants
 
 <br>
 

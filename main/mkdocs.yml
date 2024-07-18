@@ -102,6 +102,7 @@ nav:
       - C# Basics:
         - learn/csharp/variables.md
         - learn/csharp/integers.md
+        - learn/csharp/floats.md
 
       - Control Flow:
         - pages/coming-soon.md

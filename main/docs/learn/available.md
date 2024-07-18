@@ -31,7 +31,7 @@ This page contains the roadmaps for all current and future C# and .NET-related l
 ???+ example "C# Basics"
 
     - [:material-check-bold:{.check} Variables and Constants](./csharp/variables.md)
-    - [:material-traffic-cone:{.cone} Integers]()
+    - [:material-check-bold:{.check} Integers](./csharp/integers.md)
     - [:material-traffic-cone:{.cone} Floats]()
     - [:material-traffic-cone:{.cone} Booleans]()
     - [:material-traffic-cone:{.cone} Characters]()

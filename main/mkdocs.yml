@@ -103,6 +103,7 @@ nav:
         - learn/csharp/variables.md
         - learn/csharp/integers.md
         - learn/csharp/floats.md
+        - learn/csharp/booleans.md
 
       - Control Flow:
         - pages/coming-soon.md

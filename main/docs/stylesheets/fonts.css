@@ -1,11 +1,8 @@
-@font-face {
-    font-family: "Berkeley Mono";
-    src: "assets/fonts/BerkeleyMono-Regular";
-}
-
+/*
 code *, pre *, .success * {
-    font-family: "Berkeley Mono", "Courier New", "Monospace" !important;
+    font-family: "Courier New", "Monospace" !important;
 }
+*/
 
 html {
     font-size: 22px !important;
@@ -25,7 +22,7 @@ table {
 }
 
 pre *, code * {
-    font-size: 14px !important;
+    font-size: 15px !important;
 }
 
 p code, ul code, li code, h2 code, h3 code, h4 code {

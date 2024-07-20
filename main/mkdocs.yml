@@ -47,7 +47,7 @@ theme:
 # ==============================================================
   font:
     text: Geologica
-    code: Encode Sans Expanded
+    code: Source Code Pro
 # ==============================================================
   name: material
   palette:

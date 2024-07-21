@@ -104,6 +104,7 @@ nav:
         - learn/csharp/integers.md
         - learn/csharp/floats.md
         - learn/csharp/booleans.md
+        - learn/csharp/characters.md
 
       - Control Flow:
         - pages/coming-soon.md

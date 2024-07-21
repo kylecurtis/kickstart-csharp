@@ -34,7 +34,7 @@ This page contains the roadmaps for all current and future C# and .NET-related l
     - [:material-check-bold:{.check} Integers](./csharp/integers.md)
     - [:material-check-bold:{.check} Floats](./csharp/floats.md)
     - [:material-check-bold:{.check} Booleans](./csharp/booleans.md)
-    - [:material-traffic-cone:{.cone} Characters]()
+    - [:material-check-bold:{.check} Characters](./csharp/characters.md)
     - [:material-traffic-cone:{.cone} Strings]()
     - [:material-traffic-cone:{.cone} Arrays]()
     - [:material-traffic-cone:{.cone} Enums]()
